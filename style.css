@@ -1,18 +1,63 @@
 body {
-    max-width: 900px;
-    margin: 2rem auto;
-    padding: 1rem;
-    font-family: sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 16px;
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Hiragino Sans",
+        "Yu Gothic",
+        sans-serif;
+    line-height: 1.6;
+    background: #fafafa;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
 }
 
 button {
-    margin-right: 0.5rem;
-    padding: 0.5rem 1rem;
+    appearance: none;
+    border: none;
+    border-radius: 12px;
+
+    padding: 14px 18px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+
+    font-size: 1rem;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    background: #333;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#copyButton {
+    background: #666;
 }
 
 #result {
     margin-top: 1rem;
-    padding: 1rem;
-    border: 1px solid #ccc;
+
+    padding: 16px;
+
+    border: 1px solid #ddd;
+    border-radius: 12px;
+
+    background: white;
+
     white-space: pre-wrap;
+    word-break: break-word;
+
+    min-height: 240px;
+
+    font-size: 0.95rem;
+    line-height: 1.7;
 }
