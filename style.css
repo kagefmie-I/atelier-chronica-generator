@@ -1,0 +1,18 @@
+body {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+button {
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+#result {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    white-space: pre-wrap;
+}
